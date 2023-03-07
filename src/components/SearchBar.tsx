@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SearchIcon from '@mui/icons-material/Search';
-import styles from '@/styles/NavBar.module.css';
+import styles from '@/styles/SearchBar.module.css';
 
 export default function SearchBar() {
     const [contents, setContents] = useState<string>('');
