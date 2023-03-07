@@ -3,6 +3,7 @@
     background-color: #1e1e1e;
     border-radius: 24px;
     padding: 0 24px;
+    width: 33.3%;   /* TODO: flex-grow/shrink for better use of space */
 
     display: flex;
     align-items: center;
@@ -17,6 +18,7 @@
     font-size: inherit;
     color: inherit;
     outline: none;
+    font-family: inherit;
 }
 
 .searchInput::placeholder {
