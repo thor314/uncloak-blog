@@ -1,6 +1,5 @@
 import React from 'react';
 import TopBar from './NavBar';
-import LeftBar from './LeftBar';
 
 export type LayoutProps = {
     children: React.ReactNode;
@@ -9,8 +8,7 @@ export type LayoutProps = {
 export default function Layout(props: LayoutProps) {
     return (
         <>
-            <TopBar/>
-            <LeftBar/>
+            <NavBar/>
             <main>{props.children}</main>
         </>
     );

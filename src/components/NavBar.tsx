@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function TopBar() {
+export default function NavBar() {
   return (
     <>
       <nav className="top-bar">
