@@ -1,0 +1,13 @@
+.navBar {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 960px) {
+    .navBar {
+        height: 64px;
+    }
+}
