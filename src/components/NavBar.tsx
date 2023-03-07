@@ -12,9 +12,7 @@ export default function NavBar() {
         /> */}
         <Link href="/" className="nav-uncloak-link">Uncloak Blog</Link>
         <a href="https://uncloak.org" className="nav-back-button">Back to Wiki</a>
-        <div className="nav-search-bar-container">
-          <input type="text" className="nav-search-bar-input" placeholder="Search" />
-        </div>
+        <input type="text" className="nav-search-bar-input" placeholder="Search" />
         {/* todo tags button */}
       </nav>
     </>
