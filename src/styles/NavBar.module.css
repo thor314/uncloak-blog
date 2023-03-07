@@ -1,13 +1,54 @@
-.navBar {
+.NavBar {
     height: 56px;
     width: 100%;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.brand {
+    font-size: 20px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.SearchBar {
+    height: 75%;
+    background-color: #1e1e1e;
+    border-radius: 24px;
+}
+
+.searchInput {
+    width: 100%;
+}
+
 @media (min-width: 960px) {
-    .navBar {
+    .NavBar {
         height: 64px;
+    }
+
+    .navLinks {
+        gap: 12px;
+    }
+
+    .brand {
+        gap: 12px;
+    }
+
+    .SearchBar {
+        max-width: 33.3%;
     }
 }
