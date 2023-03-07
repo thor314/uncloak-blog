@@ -1,5 +1,5 @@
 import React from 'react';
-import TopBar from './TopBar';
+import TopBar from './NavBar';
 import LeftBar from './LeftBar';
 
 export type LayoutProps = {
